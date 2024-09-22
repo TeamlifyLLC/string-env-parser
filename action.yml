@@ -1,0 +1,13 @@
+name: 'Env Parser'
+description: 'Parse ENV secrets from github secret manager and inject them into runtime'
+inputs:
+  envString:
+    description: The String to populate the environment with
+    required: true
+  overwrite:
+    description: Whether to overwrite existing environment variables or not
+    default: 'false'
+    required: false
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
