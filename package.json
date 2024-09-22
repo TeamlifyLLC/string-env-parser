@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Are you tired of repeating and duplicating environment variables for environment specific deployment steps and having to maintain multiple workflows dependent on the same set of variables?",
   "main": "index.js",
+  "type": "module",
   "exports": "./dist/index.js",
   "scripts": {
     "build": "ncc build src/index.js",
