@@ -4,7 +4,7 @@
   "description": "Are you tired of repeating and duplicating environment variables for environment specific deployment steps and having to maintain multiple workflows dependent on the same set of variables?",
   "main": "index.js",
   "exports": "./dist/index.js",
-  "mode": "module",
+  "type": "module",
   "scripts": {
     "build": "ncc build src/index.js",
     "clean": "rm -rf ./dist",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamlifyLLC/json-env-parser.git"
+    "url": "git+https://github.com/TeamlifyLLC/string-env-parser.git"
   },
   "author": "Ivan Barayev",
   "license": "ISC",
